@@ -1,0 +1,447 @@
+{% include 'partials/header.html' %}
+
+<body class="blog-details-page">
+
+  <script>
+    document.title = 'Rekindle - Gangguan Depresi'
+  </script>
+
+  {% include 'components/navbar.html' %}
+  
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Gangguan Depresi</h1>
+              <p class="mb-0">Depresi atau gangguan depresi mayor adalah gangguan kesehatan mental yang memengaruhi perasaan, cara berpikir dan cara bertindak seseorang.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="/">Beranda</a></li>
+            <li class="current">Gangguan Depresi</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-8">
+
+          <!-- Blog Details Section -->
+          <div id="blog-details" class="blog-details section">
+            <div class="container">
+
+              <article class="article">
+                <div class="post-img">
+                  <img src="{{ url_for('static', filename='../static/assets/img/blog/compressed_article2.png') }}" alt="" class="img-fluid">
+                </div>
+
+                <h2 class="title">Apa Itu Depresi?</h2>
+
+                <div class="meta-top">
+                  <ul>
+                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="/blog/blog-details-gangguan-kecemasan">Halodoc</a></li>
+                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="/blog/blog-details-gangguan-kecemasan"><time datetime="2024-06-17">June 17, 2024</time></a></li>
+                  </ul>
+                </div><!-- End meta top -->
+
+                <div class="content">
+                  <p>
+                    Depresi atau gangguan depresi mayor adalah gangguan kesehatan mental yang memengaruhi perasaan, cara berpikir dan cara bertindak seseorang.
+                  </p>
+
+                  <p>
+                    Gejala depresi pada seseorang yang paling umum adalah merasa sedih dan kehilangan minat untuk melakukan aktivitas yang biasa mereka lakukan.
+                    Kondisi ini kemudian dapat menyebabkan berbagai masalah emosional dan fisik. 
+                  </p>
+
+                  <blockquote>
+                    <p>
+                      Efek depresi dapat berlangsung lama atau bahkan berulang dan mampu memengaruhi kemampuan seseorang menjalani aktivitas sehari-hari.
+                    </p>
+                  </blockquote>
+
+                  <p>
+                    Tidak hanya itu, gangguan kesehatan ini juga dapat memburuk dan bertahan lebih lama bila tak mendapatkan penanganan. 
+                  </p>
+
+                  <h3>Apa Saja Bentuk Depresi?</h3>
+                  <p>
+                    Depresi terbagi menjadi beberapa jenis berdasarkan tingkat keparahan dan apa yang menjadi penyebabnya.
+                  </p>
+                  
+                    <div class="content ps-0 ps-lg-5">
+                      <p class="fst-italic">
+                        Berikut penjelasan untuk setiap jenisnya:
+                      </p>
+                      <ul>
+                        <li><span>1. Depresi mayor</span></li>
+                        <p>
+                          Jenis gangguan kesehatan mental ini muncul dengan gejala berupa perasaan sedih, mengalami kehilangan minat, atau gejala pada umumnya.
+                          Kondisi ini bisa muncul setiap waktu dan berlangsung selama sekitar 2 minggu atau bahkan lebih.  
+                        </p>
+                        <li><span>2. Distimia</span></li>
+                        <p>
+                          Selain itu, ada pula distimia atau gejala depresi yang kronis (persistent depressive disorder). Jenis ini termasuk dalam depresi mayor yang telah terjadi dalam waktu yang lama, yaitu setidaknya selama 2 tahun.
+                        </p>
+                        <li><span>3. Gangguan bipolar</span></li>
+                        <p>
+                          Kemudian, ada pula gangguan bipolar, masalah suasana hari yang muncul dengan gejala berupa perubahan emosi dan suasana hati yang drastis pada dua rentang waktu.
+                          Ketika mengalami masalah kesehatan mental ini, seseorang dapat berada pada fase mania atau senang berlebihan dan depresi mayor (perasaan sedih dan putus asa).  
+                        </p>
+                        <li><span>4. Depresi postpartum</span></li>
+                        <p>
+                          Jenis depresi ini sangat umum terjadi pada ibu yang baru melalui proses persalinan.
+                          Biasanya, kondisi ini muncul dengan gejala depresi mayor dalam waktu kurang lebih 1 tahun setelah persalinan. 
+                        </p>
+                        <li><span>5. Premenstrual dysphoric disorder (PMDD)</span></li>
+                        <p>
+                          PMDD adalah gangguan mental yang identik dengan wanita. Gejalanya bisa terlihat sekitar 1 minggu sebelum hari menstruasi untuk beberapa wanita, lalu menghilang ketika haid tiba.
+                          Namun, gangguan ini tidak sama dengan gejala dari PMS atau Premenstrual Syndrome. 
+                        </p>
+                        <li><span>6. Depresi atipikal (atypical depression)</span></li>
+                        <p>
+                          Jenis ini biasanya muncul dengan beberapa gejala depresi yang tidak khas. Misalnya, kenaikan berat badan yang signifikan, terlalu banyak tidur, penolakan, dan sedih yang berlebihan.
+                          Umumnya, gejala ini akan mulai mereda jika pengidapnya mengalami kejadian atau suasana yang positif. 
+                        </p>
+                        <li><span>7. Psychotic depression</span></li>
+                        <p>
+                          Terakhir, ada psychotic depression, kondisi gangguan kesehatan mental yang muncul pada seseorang yang mengalami depresi yang parah bersamaan dengan gejala psikotik, misalnya delusi, halusinasi, dan masalah pola pikir.
+                        </p>
+                      </ul>
+                    </div>
+
+                  <h3>Penyebab Depresi</h3>
+                  <p>
+                    Sayangnya, ahli belum mengetahui apa yang menjadi penyebab depresi secara pasti.
+                  </p>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      Namun, mereka menduga bahwa kelainan kesehatan mental ini terjadi karena beberapa faktor pemicu berikut ini.
+                    </p>
+                    <ul>
+                      <li><span>Masalah biologis</span></li>
+                        <p>
+                          Seseorang yang mengidap depresi kemungkinan mengalami perubahan fisik pada otak.
+                          Meski begitu, tingkat signifikan dari perubahan ini belum pasti, meski akhirnya dapat membantu menentukan sesuatu yang jadi penyebabnya.
+                        </p>
+                        <li><span>Gangguan kimia pada otak</span></li>
+                        <p>
+                          Neurotransmitter adalah bahan kimia pada otak yang terbentuk secara alami dan kabarnya memiliki peran dalam terbentuknya depresi.
+                          Studi menyebutkan jika perubahan fungsi dan efek neurotransmitter ini dapat memengaruhi stabilitas suasana hati sehingga berdampak pula pada tingkat depresi pada seseorang.
+                        </p>
+                        <li><span>Gangguan hormon</span></li>
+                        <p>
+                          Perubahan atau gangguan pada keseimbangan hormon dapat memicu terjadinya depresi. Hal ini kerap terjadi selama kehamilan dan beberapa minggu atau bulan setelahnya (pascapartum).
+                          Selain itu, seseorang yang mengalami masalah tiroid, menopause, serta beberapa kondisi lainnya juga memiliki risiko tinggi pada depresi.
+                        </p>
+                        <li><span>Penyakit keturunan</span></li>
+                        <p>
+                          Masalah kesehatan mental ini lebih berisiko terjadi pada seseorang dengan keluarga inti yang pernah mengalami kondisi serupa.
+                          Ahli menyebutkan, gen dapat memengaruhi risiko dari penyebab depresi.
+                        </p>
+                        <li><span>Peristiwa kehidupan</span></li>
+                        <p>
+                          Mengalami stres, kematian orang tersayang, peristiwa yang mengecewakan (trauma), isolasi dan kurangnya dukungan dapat menyebabkan depresi.
+                        </p>
+                        <li><span>Kondisi medis</span></li>
+                        <p>
+                          Rasa sakit dan penyakit fisik yang berkelanjutan dapat menyebabkan depresi.
+                          Pengidap penyakit kronis seperti diabetes, kanker, dan penyakit Parkinson lebih rentan mengalami depresi
+                        </p>
+                        <li><span>Obat</span></li>
+                        <p>
+                          Beberapa obat memiliki efek samping depresi. Narkoba dan alkohol juga dapat menyebabkan depresi atau memperburuknya.
+                        </p>
+                        <li><span>Kepribadian</span></li>
+                        <p>
+                          Seseorang yang mudah kewalahan atau mengalami kesulitan mengatasi situasi tertentu lebih rentan terhadap depresi.
+                        </p>
+                    </ul>
+                  </div>
+
+                  <h3>Faktor Risiko Depresi</h3>
+                  <p>
+                    Depresi umumnya terjadi pada remaja pada rentang usia antara 20 hingga 30-an, meski semua rentang usia juga memiliki risiko tersendiri.
+                    Wanita lebih berisiko mengalami depresi daripada pria, tetapi wanita juga lebih cepat untuk mencari bantuan profesional. 
+                    Sementara itu, depresi yang terjadi pada usia paruh baya atau orang dewasa yang lebih tua dapat muncul bersamaan dengan penyakit medis serius lainnya. Contohnya diabetes, kanker, penyakit jantung, dan penyakit Parkinson. 
+                    Penyakit kronis tersebut sering kali lebih buruk ketika depresi hadir. Terkadang obat untuk penyakit tersebut dapat menyebabkan efek samping yang berkontribusi pada depresi.
+                  </p>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      Beberapa faktor yang dapat memicu terjadinya gangguan kesehatan mental ini, antara lain:
+                    </p>
+                    <ul>
+                      <li><span>Memiliki riwayat gangguan kesehatan mental pada keluarga.</span></li>
+                      <li><span>Menyalahgunakan alkohol atau obat terlarang.</span></li>
+                      <li><span>Memiliki ciri kepribadian tertentu, seperti rendah diri, terlalu keras dalam menilai diri sendiri, pesimis, atau terlalu bergantung kepada orang lain.</span></li>
+                      <li><span>Mengidap penyakit kronis atau serius, seperti gangguan hormon tiroid, cedera kepala, HIV/AIDS, diabetes, kanker, stroke, nyeri kronis, atau penyakit jantung.</span></li>
+                      <li><span>Mengonsumsi obat-obatan tertentu, seperti beberapa obat tekanan darah tinggi atau obat tidur.</span></li>
+                      <li><span>Mengalami kejadian traumatik, seperti kekerasan seksual, kematian, kehilangan orang yang dicintai, atau masalah keuangan.</span></li>
+                    </ul>
+                  </div>
+
+                  <h3>Apa Ciri-Ciri Depresi?</h3>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      Gejala depresi dapat kamu perhatikan dari dua hal, yaitu kejiwaan dan fisik. Dari aspek kejiwaan, gangguan mental ini memiliki ciri sebagai berikut: 
+                    </p>
+                    <ul>
+                      <li><span>Sering menyalahkan diri sendiri karena selalu memiliki rasa bersalah.</span></li>
+                      <li><span>Kerap merasa rendah diri, tidak berharga, dan putus asa.</span></li>
+                      <li><span>Selalu merasa khawatir dan cemas yang berlebihan.</span></li>
+                      <li><span>Memiliki suasana hati yang buruk atau sering merasa sedih berlebihan</span></li>
+                      <li><span>Sensitif, mudah marah, dan lebih sering menangis.</span></li>
+                      <li><span>Kesulitan berpikir, mengambil keputusan, dan berkonsentrasi.</span></li>
+                      <li><span>Menunjukkan sikap apatis pada lingkungan sekitar.</span></li>
+                      <li><span>Tidak menunjukkan ketertarikan dan tidak mempunyai motivasi untuk semua hal (anhedonia).</span></li>
+                      <li><span>Selalu memiliki pikiran untuk menyakiti diri sendiri atau melakukan percobaan bunuh diri.</span></li>
+                    </ul>
+                  </div>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      Sementara itu, gejala depresi secara fisik yang bisa terlihat, antara lain: 
+                    </p>
+                    <ul>
+                      <li><span>Tubuh merasa kelelahan dan tidak bertenaga.</span></li>
+                      <li><span>Nafsu makan menurun atau bahkan tidak berselera.</span></li>
+                      <li><span>Mengalami sulit tidur atau justru tidur berlebihan. </span></li>
+                      <li><span>Nyeri dan pusing tanpa penyebab yang jelas.</span></li>
+                      <li><span>Bicara dan gerak tubuh yang lebih lambat daripada biasanya.</span></li>
+                      <li><span>Penurunan atau hilangnya gairah seksual.</span></li>
+                      <li><span>Perasaan khawatir dan cemas yang berlebihan dan terjadi sepanjang waktu selama kurang lebih sekitar 6 bulan.</span></li>
+                      <li><span>Berat badan naik atau justru menurun.</span></li>
+                    </ul>
+                  </div>
+                  <p>
+                    Masalah depresi tidak selalu menunjukkan gejala yang serupa. Ini bergantung pada tingkat keparahan pada setiap pengidapnya.
+                    Tingkat ringan dari gangguan mental ini bisa mengganggu aktivitas, produktivitas, dan relasi sosial.
+                    Sementara itu, pada depresi yang parah, pengidapnya tidak dapat beraktivitas dan menjalin hubungan dengan orang lain. 
+                  </p>
+
+                  <h3>Diagnosis Gejala Depresi</h3>
+                  <p>
+                    Dokter akan mendiagnosis depresi dengan melakukan wawancara medis, pemeriksaan fisik, pemeriksaan psikologis, serta pemeriksaan penunjang seperti pemeriksaan darah jika memang perlu. 
+                    Pemeriksaan tersebut memiliki tujuan untuk mengetahui apa yang menjadi penyebab dan gejala depresi.
+                  </p>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      Berikut penjelasan lebih lengkapnya:
+                    </p>
+                    <ul>
+                      <li><span>Pemeriksaan fisik</span></li>
+                      <p>
+                        Dokter akan melakukan pemeriksaan fisik dan mengajukan pertanyaan yang berhubungan dengan kondisi kesehatan.
+                        Dalam beberapa kasus, depresi yang muncul memiliki kaitan dengan masalah kesehatan fisik yang menjadi penyebabnya.Dokter akan memberikan obat antidepresan golongan selective serotonin reuptake inhibitor (SSRI) untuk membantu meningkatkan kadar serotonin pada otak.
+                        Sementara itu, dokter akan memberikan obat golongan serotonin dan noradrenaline reuptake inhibitor (SNRI) untuk membantu meningkatkan kadar serotonik dan noradrenaline pada otak.
+                        Ada beberapa jenis obat antidepresan yang biasa diresepkan oleh dokter.
+                      </p>
+                      <li><span>Tes laboratorium</span></li>
+                      <p>
+                        Pemeriksaan ini bertujuan untuk memastikan gangguan kelenjar tiroid yang menjadi salah satu pemicu depresi melalui hitung darah lengkap.
+                        Ahli medis dapat menilai jika terdapat gangguan pada organ tersebut sehingga langsung melakukan penanganan.
+                      </p>
+                      <li><span>Pemeriksaan mental</span></li>
+                      <p>
+                        Psikolog atau psikiater akan bertanya tentang gejala yang muncul, termasuk pikiran, perasaan, serta pola perilaku.
+                        Selain itu, dokter juga meminta pengidap mengisi kuesioner untuk menjawab beberapa pertanyaan guna menilai kesehatan mental.
+                      </p>
+                      <li><span>DSM-5</span></li>
+                      <p>
+                        Dokter juga dapat menggunakan kriteria untuk depresi sesuai dengan Diagnostic and Statistical Manual of Mental Disorders (DSM-5) dari American Psychiatric Association.
+                      </p>
+                    </ul>
+
+                  <h3>Pengobatan Gejala Depresi</h3>
+                  <p>
+                    Hidup dengan depresi memang tidak mudah, tetapi pengobatan dapat membantu meningkatkan kualitas hidup pengidapnya.
+                    Cobalah temui ahli medis untuk meminta bantuan pengobatan agar menjadi lebih baik. Jika masih tergolong ringan, perawatan diri sendiri mungkin bisa membantu. 
+                    Jika perawatan mandiri sudah tidak efektif, pengidap mungkin memerlukan konseling psikiater atau obat resep dari dokter.
+                  </p>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      Beberapa cara yang dapat menjadi pilihan untuk mengatasi atau pengobatan depresi, antara lain:
+                    </p>
+                    <ul>
+                      <li><span>1. Perawatan mandiri</span></li>
+                      <p>
+                        Perawatan mandiri bisa menjadi pilihan terbaik untuk mengatasi depresi yang ringan. Bagi banyak orang, olahraga teratur membantu menciptakan perasaan positif dan  meningkatkan suasana hati.
+                        Mendapatkan kualitas tidur yang cukup, mengonsumsi makanan sehat dan menghindari alkohol (depresan) juga bisa membantu mengurangi gejalanya.
+                      </p>
+                      <li><span>2. Psikoterapi</span></li>
+                      <p>
+                        Dokter akan merekomendasikan psikoterapi untuk kasus depresi ringan hingga berat. Selain itu, dokter juga sering mengombinasikan psikoterapi dengan obat.
+                      </p>
+                      <div class="content ps-0 ps-lg-5">
+                        <p class="fst-italic">
+                          Berikut jenis terapi untuk mengatasi gangguan mental tersebut:
+                        </p>
+                        <ul>
+                          <li><span>Cognitive behavior therapy (CBT). Terapi ini bertujuan untuk membantu pengidap melepaskan pikiran dan perasaan negatif serta menggantinya dengan respon positif.</span></li>
+                          <li><span>Problem-solving therapy (PST), terapi yang dapat membantu meningkatkan kemampuan pengidap menghadapi pengalaman yang memicu rasa tertekan.</span></li>
+                          <li><span>Interpersonal therapy (IPT), guna membantu mengatasi masalah yang muncul saat berhubungan dengan orang lain.</span></li>
+                          <li><span>Terapi psikodinamis, untuk membantu pengidap memahami apa yang sedang dirasakan dan bagaimana merespon perasaan tersebut.</span></li>
+                      </div>
+                      <p>
+                        Bergantung pada tingkat keparahan kondisi tersebut, pengobatan bisa memerlukan waktu beberapa minggu atau lebih lama.
+                        Dalam banyak kasus, peningkatan yang signifikan dapat berlangsung dalam 10 hingga 15 sesi.
+                      </p>
+                      <li><span>3. Obat</span></li>
+                      <p>
+                        Ketidakseimbangan bahan kimia pada otak menjadi salah satu faktor risiko depresi. Dokter dapat meresepkan antidepresan untuk membantu memodifikasi kimia otak seseorang.
+                        Umumnya, obat antidepresan tidak memiliki efek stimulasi pada orang yang tidak mengalami kelainan tersebut. 
+                        Antidepresan dapat mengurangi gejala dalam satu atau dua minggu pertama konsumsi, tapi manfaat penuh bisa jadi tidak terlihat hingga dua sampai tiga bulan. 
+                        Dalam beberapa situasi, obat psikotropika lain mungkin membantu. 
+                        Dokter biasanya menyarankan pengidap terus minum obat selama enam bulan atau lebih setelah gejalanya membaik.
+                        Perawatan jangka panjang juga dapat membantu untuk mengurangi risiko episode depresi pada masa depan bagi orang-orang yang lebih berisiko.
+                      </p>
+                      <li><span>4. Terapi stimulasi otak</span></li>
+                      <p>
+                        Jenis terapi ini biasanya menjadi pilihan untuk kondisi depresi yang tidak membaik setelah mengonsumsi obat, mengalami gejala psikosis, serta menunjukkan percobaan untuk bunuh diri.
+                      </p>
+                      <div class="content ps-0 ps-lg-5">
+                        <p class="fst-italic">
+                          Jenis terapi stimulasi otak ini termasuk:
+                        </p>
+                        <ul>
+                          <li><span>Electroconvulsive therapy (ECT). Terapi ini dilakukan dengan mengalirkan arus listrik ke otak melalui kulit kepala untuk menyebabkan kejang singkat.</span></li>
+                          <li><span>Transcranial Magnetic Stimulation (TMS). Jenis stimulasi otak ini berlangsung dengan memakai energi magnet yang diubah menjadi arus listrik pada bagian bawah tengkorak. Prosedur ini bertujuan untuk membantu pengidap mengatur emosi. TMS adalah pengobatan tambahan yang bisa digabung dengan pengobatan dan non-invasif (tidak memerlukan operasi).</span></li>
+                          <li><span>Vagus Nerve Stimulation (VHS). Dokter jarang melakukan jenis terapi ini. Prosedurnya yaitu dokter akan memasang elektroda untuk stimulasi saraf vagus yang ditanamkan pada leher pasien.</span></li>
+                      </div>
+                      </ul>
+                  </div>
+
+                  <h3>Komplikasi Depresi</h3>
+                  <p>
+                    Depresi adalah gangguan kesehatan mental serius yang bisa berakibat fatal bagi pengidap maupun keluarga.
+                    Gangguan ini sering kali menjadi lebih buruk bila tidak mendapat penanganan dan mengakibatkan masalah emosional, perilaku dan kesehatan yang memengaruhi kehidupan.
+                  </p>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      Beberapa komplikasi yang bisa terjadi termasuk:
+                    </p>
+                    <ul>
+                      <li><span>Kelebihan berat badan atau obesitas yang bisa menyebabkan penyakit jantung dan diabetes.</span></li>
+                      <li><span>Penyakit fisik.</span></li>
+                      <li><span>Pelarian berupa alkohol atau penyalahgunaan narkoba.</span></li>
+                      <li><span>Kecemasan, gangguan panik atau fobia sosial.</span></li>
+                      <li><span>Menimbulkan konflik keluarga, kesulitan hubungan, dan masalah pekerjaan atau sekolah.</span></li>
+                      <li><span>Isolasi sosial.</span></li>
+                      <li><span>Muncul perasaan ingin bunuh diri, percobaan bunuh diri, atau bunuh diri.</span></li>
+                      <li><span>Keinginan untuk mutilasi diri.</span></li>
+                      <li><span>Kematian dini akibat kondisi medis.</span></li>
+                    </ul>
+                  </div>
+
+                  <h3>Pencegahan Depresi</h3>
+                  <p>
+                    Sayangnya, ahli belum mengetahui secara pasti langkah yang efektif untuk mencegah munculnya gejala depresi.
+                    Namun, jika kamu mengalaminya, akan lebih baik untuk mencegah kekambuhan dengan mempelajari beberapa cara yang efektif. 
+                  </p>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      Contohnya, perubahan gaya hidup dan pengobatan yang efektif. Beberapa cara lain yang bisa kamu lakukan untuk mencegah kondisi ini, antara lain:
+                    </p>
+                    <ul>
+                      <li><span>1. Jaga kesehatan fisik</span></li>
+                      <p>
+                        Lakukan olahraga secara teratur, makan makanan sehat, tidur yang cukup, dan hindari kebiasaan merokok atau mengonsumsi alkohol secara berlebihan.
+                        Kesehatan fisik yang baik dapat membantu meningkatkan mood dan meredakan stres.
+                      </p>
+                      <li><span>2. Kelola stres dengan baik</span></li>
+                      <p>
+                        Cari cara untuk mengatasi stres, seperti meditasi, yoga, atau aktivitas yang kamu sukai. Berbicara dengan orang terdekat atau terapis juga bisa membantu.
+                      </p>
+                      <li><span>3. Tetap aktif secara sosial</span></li>
+                      <p>
+                        Pertahankan hubungan yang positif dengan keluarga, teman, dan lingkungan sekitar. Jangan ragu untuk mencari dukungan ketika merasa tertekan atau kesepian.
+                      </p>
+                      <li><span>4. Cari hobi dan aktivitas yang menyenangkan</span></li>
+                      <p>
+                        Temukan kegiatan yang kamu sukai, seperti membaca buku, melukis, berkebun, atau bermain musik. Hobi dapat memberikan perasaan bahagia dan memperkuat rasa pencapaian.
+                      </p>
+                      <li><span>5. Batasi penggunaan media sosial</span></li>
+                      <p>
+                        Terlalu banyak menghabiskan waktu di media sosial dapat menyebabkan perasaan tidak adanya dukungan dan tekanan untuk selalu membandingkan diri dengan orang lain. Oleh sebab itu, batasi penggunaan media sosial.
+                      </p>
+                      <li><span>6. Atur waktu dengan baik/span></li>
+                      <p>
+                        Beri diri sendiri waktu untuk bersantai dan beristirahat. Jangan terlalu sibuk atau terlalu banyak bekerja. Sebab, terlalu banyak bekerja bisa memicu stres dan berujung depresi apabila tak tertangani.
+                      </p>
+                      <li><span>7. Kenali tanda-tanda awalnya</span></li>
+                      <p>
+                        Jika kamu merasa mulai mengalami gejala gangguan kesehatan mental ini, segera cari bantuan dari profesional kesehatan mental. Jangan menunggu kondisinya semakin memburuk. 
+                        Sebab, kondisi yang tak tertangani bisa berdampak negatif untuk kesehatan fisik maupun mental. 
+                      </p>
+                      <li><span>8. Jangan mengisolasi diri</span></li>
+                      <p>
+                        Ketika merasa tertekan atau sedih, jangan mengisolasi diri. Cobalah untuk tetap terhubung dengan orang lain dan bicarakan perasaan.
+                        Mengisolasi diri justru bisa membuat pikiran semakin negatif.
+                      </p>
+                      </ul>
+                  </div>
+
+                </div><!-- End post content -->
+
+                <div class="meta-bottom">
+                  <i class="bi bi-folder"></i>
+                  <ul class="cats">
+                    <li><a href="/blog">Gangguan Mental</a></li>
+                  </ul>
+
+                  <i class="bi bi-tags"></i>
+                  <ul class="tags">
+                    <li><a href="#">Gangguan Depresi</a></li>
+                  </ul>
+                </div><!-- End meta bottom -->
+
+              </article>
+
+            </div>
+          </div><!-- /Blog Details Section -->
+
+          <!-- Blog Author Section -->
+          <section id="blog-author" class="blog-author section">
+
+            <div class="container">
+              <div class="author-container d-flex align-items-center">
+                <img src="{{ url_for('static', filename='../static/assets/img/blog/compressed_profile1.jpg') }}" class="rounded-circle flex-shrink-0" alt="">
+                <div>
+                  <h4>Halodoc</h4>
+                  <p class="fst-italic">
+                    Sumber dari halodoc.com, 2023
+                  </p>
+                  <p>
+                    Halodoc merupakan sebuah aplikasi dan situs web asal Indonesia yang bergerak di bidang kesehatan. PT Media Dokter Investama, perusahaan aplikasi ini didirikan pada tahun 2016 di Jakarta oleh Jonathan Sudharta dan Doddy Lukito.
+                    Hingga tahun 2018, total pendanaan yang diterima adalah sekitar US$13 juta atau sekitar Rp171 miliar; beberapa investornya antara lain Gojek, Blibli, Clermont, dan NSI Ventures. 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </section><!-- /Blog Author Section -->
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  {% include 'partials/footer.html' %}
+
+</body>
+
+</html>

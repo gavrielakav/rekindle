@@ -1,0 +1,144 @@
+{% include 'partials/header.html' %}
+
+<body class="blog-details-page">
+
+  <script>
+    document.title = 'Rekindle - Gangguan Depresi'
+  </script>
+
+  {% include 'components/navbar.html' %}
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Gangguan Depresi</h1>
+              <p class="mb-0">Depresi atau gangguan depresi mayor adalah gangguan kesehatan mental yang memengaruhi perasaan, cara berpikir dan cara bertindak seseorang.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="/">Beranda</a></li>
+            <li class="current">Gangguan Depresi</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-8">
+
+          <!-- Blog Details Section -->
+          <div id="blog-details" class="blog-details section">
+            <div class="container">
+
+              <article class="article">
+
+                <div class="post-img">
+                  <img src="{{ url_for('static', filename='../static/assets/img/blog/compressed_article2.png') }}" alt="" class="img-fluid">
+                </div>
+
+                <h2 class="title">Apa Itu Depresi?</h2>
+
+                <div class="meta-top">
+                  <ul>
+                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="/blog/blog-details-gangguan-kecemasan">Halodoc</a></li>
+                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="/blog/blog-details-gangguan-kecemasan"><time datetime="2024-06-17">June 17, 2024</time></a></li>
+                  </ul>
+                </div><!-- End meta top -->
+
+                <div class="content">
+                  <p>
+                    Depresi atau gangguan depresi mayor adalah gangguan kesehatan mental yang memengaruhi perasaan, cara berpikir dan cara bertindak seseorang.
+                  </p>
+
+                  <p>
+                    Gejala depresi pada seseorang yang paling umum adalah merasa sedih dan kehilangan minat untuk melakukan aktivitas yang biasa mereka lakukan.
+                    Kondisi ini kemudian dapat menyebabkan berbagai masalah emosional dan fisik. 
+                  </p>
+
+                  <blockquote>
+                    <p>
+                      Efek depresi dapat berlangsung lama atau bahkan berulang dan mampu memengaruhi kemampuan seseorang menjalani aktivitas sehari-hari.
+                    </p>
+                  </blockquote>
+
+                  <p>
+                    <b>Untuk mengetahui isi artikel lebih lanjut bisa pergi ke artikel asli berikut ini:</b>
+                  </p>
+
+                    <div class="d-flex">
+                    <a href="https://www.halodoc.com/kesehatan/depresi" class="btn-get-started">Halodoc</a>
+                    </div>
+
+                  <p>
+                    <b>Atau artikel dari Rekindle berikut ini:</b>
+                  </p>
+
+                  <div class="d-flex">
+                    <a href="/blog/blog-details-gangguan-depresi" class="btn-get-started">Rekindle</a>
+                  </div>
+
+                </div><!-- End post content -->
+
+                <div class="meta-bottom">
+                  <i class="bi bi-folder"></i>
+                  <ul class="cats">
+                    <li><a href="/blog">Gangguan Mental</a></li>
+                  </ul>
+
+                  <i class="bi bi-tags"></i>
+                  <ul class="tags">
+                    <li><a href="#">Gangguan Depresi</a></li>
+                  </ul>
+                </div><!-- End meta bottom -->
+
+              </article>
+
+            </div>
+          </div><!-- /Blog Details Section -->
+
+          <!-- Blog Author Section -->
+          <section id="blog-author" class="blog-author section">
+
+            <div class="container">
+              <div class="author-container d-flex align-items-center">
+                <img src="{{ url_for('static', filename='../static/assets/img/blog/compressed_profile1.jpg') }}" class="rounded-circle flex-shrink-0" alt="">
+                <div>
+                  <h4>Halodoc</h4>
+                  <p class="fst-italic">
+                    Sumber dari halodoc.com, 2023
+                  </p>
+                  <p>
+                    Halodoc merupakan sebuah aplikasi dan situs web asal Indonesia yang bergerak di bidang kesehatan. PT Media Dokter Investama, perusahaan aplikasi ini didirikan pada tahun 2016 di Jakarta oleh Jonathan Sudharta dan Doddy Lukito.
+                    Hingga tahun 2018, total pendanaan yang diterima adalah sekitar US$13 juta atau sekitar Rp171 miliar; beberapa investornya antara lain Gojek, Blibli, Clermont, dan NSI Ventures. 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </section><!-- /Blog Author Section -->
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  {% include 'partials/footer.html' %}
+
+</body>
+
+</html>

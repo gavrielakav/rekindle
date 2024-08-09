@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    
+    <!-- Favicons -->
+    <link href="{{ url_for('static', filename='../static/assets/img/rekindle/compressed_Logo1.png') }}" rel="icon">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com" rel="preconnect">
+    <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
+    <!-- Vendor CSS Files -->
+    <link href="{{ url_for('static', filename='../static/assets/vendor/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='../static/assets/vendor/bootstrap-icons/bootstrap-icons.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='../static/assets/vendor/aos/aos.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='../static/assets/vendor/glightbox/css/glightbox.min.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='../static/assets/vendor/swiper/swiper-bundle.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='../static/style.css') }}">
+</head>
+
+<body>
+    <!-- Navbar -->
+     <script>
+        document.title = 'Rekindle - Chatbot'
+      </script>
+    
+       {% include 'components/navbar.html' %}
+
+    <a href="#" class="scroll-top"><i class="bi bi-arrow-up-short"></i></a>
+    <!-- Chatbox Container -->
+    <div class="chatbox">
+
+        <!-- Header for the chatbox -->
+        <div class="chatbox__header">
+            <div class="chatbox__image--header">
+                <img src="{{ url_for('static', filename='../static/images/pandora.png') }}" alt="Pandora Image">
+            </div>
+            <div class="chatbox__content--header">
+                <h4 class="chatbox__heading--header"><b>Chatbot Kesehatan Mental</b></h4>
+                <p class="chatbox__description--header"><b>Halo, nama saya Pandora. Ada yang bisa saya bantu?</b></p>
+            </div>
+        </div>
+
+        <!-- Messages area -->
+        <div class="chatbox__messages"></div>
+        <div class="chatbox__footer">
+            <input type="text" placeholder="Tuliskan pesan...">
+            <button class="chatbox__send--footer send__button">Kirim</button>
+        </div>
+
+        <!-- Footer with input and send button -->
+    </div>
+    
+
+    <!-- Include JavaScript file -->
+    <script>
+        $SCRIPT_ROOT = {{ request.script_root|tojson }};
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="{{ url_for('static', filename='../static/assets/js/main.js') }}"></script>
+    <script type="text/javascript" src="{{ url_for('static', filename='../static/app.js') }}"></script>
+</body>
+</html>

@@ -1,0 +1,318 @@
+{% include 'partials/header.html' %}
+
+<body class="blog-details-page">
+
+  <script>
+    document.title = 'Rekindle - Gangguan Mental'
+  </script>
+
+  {% include 'components/navbar.html' %}
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Gangguan Stres</h1>
+              <p class="mb-0">Stres adalah perubahan reaksi tubuh ketika menghadapi ancaman, tekanan, atau situasi yang baru. 
+                Ketika menghadapi stres, tubuh akan melepaskan hormon adrenalin dan kortisol. Kondisi ini membuat detak jantung dan tekanan darah akan meningkat, pernapasan menjadi lebih cepat, serta otot menjadi tegang.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="/">Beranda</a></li>
+            <li class="current">Gangguan Stres</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-8">
+
+          <!-- Blog Details Section -->
+          <div id="blog-details" class="blog-details section">
+            <div class="container">
+
+              <article class="article">
+
+                <div class="post-img">
+                  <img src="{{ url_for('static', filename='../static/assets/img/blog/compressed_article3.png') }}" alt="" class="img-fluid">
+                </div>
+
+                <h2 class="title">Apa Itu Stres?</h2>
+
+                <div class="meta-top">
+                  <ul>
+                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="/blog/blog-details-gangguan-kecemasan">Alodokter</a></li>
+                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="/blog/blog-details-gangguan-kecemasan"><time datetime="2024-06-17">June 17, 2024</time></a></li>
+                  </ul>
+                </div><!-- End meta top -->
+
+                <div class="content">
+                  <p>
+                    Stres adalah perubahan reaksi tubuh ketika menghadapi ancaman, tekanan, atau situasi yang baru. Ketika menghadapi stres, tubuh akan melepaskan hormon adrenalin dan kortisol. Kondisi ini membuat detak jantung dan tekanan darah akan meningkat, pernapasan menjadi lebih cepat, serta otot menjadi tegang.
+                  </p>
+
+                  <p>
+                    Stres umum dirasakan setiap orang, baik dewasa maupun anak-anak. Saat mengalami stres, tubuh akan menjadi waspada terhadap tantangan atau bahaya yang mengancam.
+                  </p>
+
+                  <blockquote>
+                    <p>
+                      Saat seseorang menghadapi kondisi yang memicu stres, tubuh akan bereaksi secara alami, yaitu dengan melepas hormon yang dinamakan kortisol dan adrenalin. 
+                    </p>
+                  </blockquote>
+
+                  <p>
+                    Reaksi ini sebenarnya baik untuk membantu seseorang menghadapi situasi yang berbahaya atau mengancam, sehingga bisa keluar dari situasi tersebut.
+                  </p>
+
+                  <h3>Penyebab Stres</h3>
+                  <p>
+                    Stres yang dialami setiap orang bisa berbeda-beda. Beberapa orang menganggap ujian sekolah dapat menyebabkan stres, tetapi beberapa orang akan lancar menghadapinya.
+                  </p>
+                  
+                    <div class="content ps-0 ps-lg-5">
+                      <p class="fst-italic">
+                        Penyebab stres belum diketahui secara pasti. Namun, ada beberapa faktor risiko yang dapat menimbulkan stres, yaitu:
+                      </p>
+                      <ul>
+                        <li><span>Keluarga yang tidak harmonis</span></li>
+                        <li><span>Peristiwa yang membuat trauma</span></li>
+                        <li><span>Penyakit berjangka lama (kronis)</span></li>
+                        <li><span>Kesenjangan ekonomi</span></li>
+                        <li><span>Lingkungan yang tidak aman, seperti area konflik</span></li>
+                        <li><span>Beban pekerjaan</span></li>
+                        <li><span>Kejadian buruk, seperti perceraian atau PHK</span></li>
+                      </ul>
+                    </div>
+
+                  <h3>Gejala Stres</h3>
+                  <p>
+                    Stres terbagi dalam stres akut dan kronis. Stres akut terjadi dalam jangka waktu yang pendek dan mudah ditangani. Sementara itu, stres kronis berlangsung dalam waktu lebih lama, yang jika tidak ditangani dapat menimbulkan masalah kesehatan.
+                    Stres ditandai dengan adanya perubahan fisik dan mental. Gejala yang muncul saat seseorang mengalami stres dapat berbeda-beda, tergantung cara menyikapinya.
+                  </p>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                    Gejala atau tanda stres dapat dibedakan menjadi:
+                    </p>
+                    <ul>
+                      <p class="fst-italic">
+                        1. Gejala emosi:
+                      </p>
+                      <ul>
+                      <li><span>Mudah gusar</span></li>
+                      <li><span>Frustrasi</span></li>
+                      <li><span>Suasana hati yang mudah berubah</span></li>
+                      <li><span>Sulit untuk menenangkan pikiran</span></li>
+                      <li><span>Bingung</span></li>
+                      <li><span>Perasaan tidak berguna</span></li>
+                      <li><span>Cenderung menghindari orang lain</span></li>
+                      <li><span>Depresi</span></li>
+                      </ul>
+                    </ul>
+                  </div>
+                  <div class="content ps-0 ps-lg-5">
+                    <ul>
+                      <p class="fst-italic">
+                        2. Gejala fisik
+                      </p>
+                      <ul>
+                      <li><span>Lemas</span></li>
+                      <li><span>Penurunan berat badan atau justru sebaliknya</span></li>
+                      <li><span>Pusing</span></li>
+                      <li><span>Mual</span></li>
+                      <li><span>Diare</span></li>
+                      <li><span>Sembelit</span></li>
+                      <li><span>Nyeri otot</span></li>
+                      <li><span>Jantung berdebar</span></li>
+                      <li><span>Gangguan tidur</span></li>
+                      <li><span>Hasrat seksual menurun</span></li>
+                      <li><span>Tubuh gemetar</span></li>
+                      <li><span>Telinga berdenging</span></li>
+                      <li><span>Kaki atau tangan dingin dan berkeringat</span></li>
+                      <li><span>Mulut kering</span></li>
+                      <li><span>Sulit menelan</span></li>
+                      </ul>
+                    </ul>
+                  </div>
+                  <div class="content ps-0 ps-lg-5">
+                    <ul>
+                      <p class="fst-italic">
+                        3. Gejala kognitif
+                      </p>
+                      <ul>
+                      <li><span>Sulit fokus</span></li>
+                      <li><span>Sering lupa</span></li>
+                      <li><span>Pesimis</span></li>
+                      <li><span>Cenderung berpandangan negatif</span></li>
+                      <li><span>Sering membuat keputusan yang tidak baik</span></li>
+                      </ul>
+                    </ul>
+                  </div>
+                  <div class="content ps-0 ps-lg-5">
+                    <ul>
+                      <p class="fst-italic">
+                        4. Gejala perilaku
+                      </p>
+                      <ul>
+                      <li><span>Perubahan pola makan</span></li>
+                      <li><span>Kebiasaan menghindari tanggung jawab</span></li>
+                      <li><span>Sikap gugup seperti menggigit kuku</span></li>
+                      <li><span>Jalan mondar-mandir</span></li>
+                      <li><span>Kebiasaan merokok atau mengonsumsi minuman beralkohol secara berlebihan</span></li>
+                      </ul>
+                    </ul>
+                  </div>
+
+                  <h3>Kapan harus ke dokter</h3>
+                  <p>
+                    Segera ke dokter jika anda mengalami stres yang berkepanjangan. Stres dalam waktu yang lama dapat membahayakan kesehatan mental dan fisik.
+                  </p>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      Anda disarankan ke dokter jika mengalami stres dan menunjukkan perilaku, seperti:
+                    </p>
+                    <ul>
+                      <li><span>Tidak bisa mengendalikan rasa takut dan panik</span></li>
+                      <li><span>Tidak dapat melakukan aktivitas sehari-hari</span></li>
+                      <li><span>Selalu teringat pada peristiwa yang membuat trauma</span></li>
+                      <li><span>Sering merasakan pusing atau detak jantung meningkat</span></li>
+                      <li><span>Sering mengalami gangguan tidur</span></li>
+                      <li><span>Muncul pikiran untuk bunuh diri</span></li>
+                    </ul>
+                  </div>
+
+                  <h3>Diagnosis Stres</h3>
+                  <p>
+                    Dokter akan meminta pasien mengisi kuesioner untuk mengetahui tingkat stres yang dirasakan. Kuesioner yang digunakan adalah The Perceived Stress Scale (PSS-10), yaitu alat tes psikologi yang berfungsi menentukan tingkat stres.
+                    Dokter juga akan melakukan tanya jawab untuk mencari tahu penyebab stres. Saat konsultasi, Anda diminta untuk jujur menceritakan penyebab atau hal-hal yang dapat menimbulkan stres.
+                    Setelah mendapat gambaran dari hasil kuesioner dan tanya jawab, dokter akan menentukan apakah Anda mengalami stres akut atau kronis.
+                    Jika stres menimbulkan penyakit, dokter akan melakukan pemeriksaan penunjang untuk mendiagnosis penyakit yang diderita. Pemeriksaan penunjang yang dilakukan dapat berupa tes darah dan pemindaian, seperti CT scan atau MRI.
+                  </p>
+
+                  <h3>Pengobatan Stres</h3>
+                  <p>
+                    Stres dapat diatasi secara mandiri. Namun, manajemen stres bukan bertujuan untuk menghilangkan stres sepenuhnya, tetapi mengelolanya agar aktivitas sehari-hari tidak terganggu.
+                  </p>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      Manajemen stres yang dapat dilakukan, yaitu:
+                    </p>
+                    <ul>
+                      <li><span>Identifikasi penyebab stress</span></li>
+                      <p>
+                        Cara ini dilakukan dengan mencari tahu apa yang memicu stres, seperti masalah pekerjaan, situasi rumah, atau hubungan dengan orang lain.
+                      </p>
+                      <li><span>Cari pemecahan masalahnya</span></li>
+                      <p>
+                        Jika penyebab sudah diketahui, langkah selanjutnya adalah mengatasi masalah tersebut, kemudian susunlah rencana untuk mengatasi masalah tersebut mulai dari rencana yang 
+                        mudah diselesaikan. Anda juga bisa menggunakan bantuan, misalnya bantuan vitamin penambah nafsu makan untuk memperbaiki selera makan atau aromaterapi untuk memudahkan tidur.
+                      </p>
+                      <li><span>Konsultasi dengan dokter</span></li>
+                      <p>
+                        Jika Anda tidak dapat mengidentifikasi dan menemukan jalan keluar, konsultasi dengan dokter diperlukan. Dokter dapat menyarankan konseling, terapi perilaku kognitif, atau terapi emotional freedom technique (EFT). 
+                        Dokter juga dapat meresepkan obat jika stres menunjukkan gejala medis. 
+                      </p>
+                    </ul>
+                    <p>
+                      Seperti yang telah dijelaskan, tubuh melepaskan hormon kortisol ketika menghadapi stres. Peningkatan hormon inilah yang menimbulkan gejala-gejala stres, baik secara fisik maupun mental. Untuk mengatasinya, pasien dapat mengonsumsi suplemen herbal alami yang mampu membantu menurunkan kadar hormon kortisol, salah satunya adalah ashvaganda.
+                      Ashvaganda merupakan tanaman herbal yang terbukti secara klinis bertindak sebagai adaptogen, yaitu zat alami yang bisa membantu tubuh beradaptasi dengan hormon stres, termasuk hormon kortisol. Jika dikonsumsi secara rutin, suplemen yang mengandung zat tersebut dapat membantu mengurangi stres dan kecemasan.
+                    </p>
+                  </div>
+
+                  <h3>Komplikasi Stres</h3>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      Stres berkepanjangan dapat menimbulkan masalah kesehatan yang serius, seperti:
+                    </p>
+                    <ul>
+                      <li><span>Gangguan mental, seperti depresi, cemas, dan gangguan kepribadian</span></li>
+                      <li><span>Gangguan jantung, seperti detak jantung yang tidak normal, tekanan darah tinggi (hipertensi), dan serangan jantung</span></li>
+                      <li><span>Gangguan pola makan sehingga timbul binge eating disorder atau obesitas</span></li>
+                      <li><span>Gangguan siklus menstruasi</span></li>
+                      <li><span>Penurunan gairah seksual</span></li>
+                      <li><span>Masalah pada kulit, seperti jerawat, eksim atopik atau psoriasis</span></li>
+                      <li><span>Rambut rontok</span></li>
+                      <li><span>Gangguan sistem pencernaan, seperti GERD atau gastritis</span></li>
+                    </ul>
+                  </div>
+
+                  <h3>Pencegahan Stres</h3>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      Stres dapat dicegah dengan menjalani pola hidup yang sehat. Cara yang bisa dilakukan adalah:
+                    </p>
+                    <ul>
+                      <li><span>Beristirahat dan tidur yang cukup setiap hari</span></li>
+                      <li><span>Meluangkan waktu untuk melakukan hal-hal yang disukai, seperti membaca buku, menikmati teh hangat, mendengarkan musik, atau menonton film</span></li>
+                      <li><span>Mengonsumsi makanan yang sehat, bergizi lengkap dan seimbang</span></li>
+                      <li><span>Berolahraga secara rutin selama minimal 30 menit setiap hari</span></li>
+                      <li><span>Bersosialisasi dengan orang yang menyenangkan dan memberikan dampak positif</span></li>
+                      <li><span>Melakukan meditasi atau teknik relaksasi</span></li>
+                    </ul>
+                  </div>
+
+                </div><!-- End post content -->
+
+                <div class="meta-bottom">
+                  <i class="bi bi-folder"></i>
+                  <ul class="cats">
+                    <li><a href="#">Gangguan Mental</a></li>
+                  </ul>
+
+                  <i class="bi bi-tags"></i>
+                  <ul class="tags">
+                    <li><a href="/blog">Gangguan Stres</a></li>
+                  </ul>
+                </div><!-- End meta bottom -->
+
+              </article>
+
+            </div>
+          </div><!-- /Blog Details Section -->
+
+          <!-- Blog Author Section -->
+          <section id="blog-author" class="blog-author section">
+
+            <div class="container">
+              <div class="author-container d-flex align-items-center">
+                <img src="{{ url_for('static', filename='../static/assets/img/blog/compressed_profile2.jpg') }}" class="rounded-circle flex-shrink-0" alt="">
+                <div>
+                  <h4>Alodokter</h4>
+                  <p class="fst-italic">
+                    Sumber dari alodokter.com, 2022
+                  </p>
+                  <p>
+                    ALODOKTER adalah platform kesehatan digital nomor satu di Indonesia dengan lebih dari 30 juta pengguna aktif setiap bulannya, serta lebih dari 80 ribu dokter yang bergabung. 
+                    Sejak tahun 2014, ALODOKTER telah unggul dalam menyediakan informasi kesehatan yang akurat, mudah dipahami, dan dapat diakses oleh siapa saja, kapan saja, dan di mana saja. Semua informasi kesehatan yang tersedia di ALODOKTER disusun dalam bahasa Indonesia yang mudah dimengerti dan ditinjau oleh tim dokter yang kompeten.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </section><!-- /Blog Author Section -->
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  {% include 'partials/footer.html' %}
+
+</body>
+
+</html>

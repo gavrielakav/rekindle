@@ -1,0 +1,450 @@
+
+{% include 'partials/header.html' %}
+
+<body class="index-page">
+
+  <script>
+    document.title = 'Rekindle - Mental Health Matters'
+  </script>
+
+  {% include 'components/navbar.html' %}
+
+  <main class="main">
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+      <div class="container position-relative" data-aos="fade-up" data-aos-delay="100">
+        <div class="row gy-5 justify-content-between">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center">
+            <h2><span>Selamat datang di </span><span class="accent">Rekindle</span></h2>
+            <p style="text-align: justify;"><b>Rekindle dirancang sebagai platform yang menyediakan edukasi kesehatan mental 
+              dan juga menawarkan interaksi langsung melalui chatbot. 
+              Fitur yang ada di Rekindle mempermudah akses ke informasi serta mendukung komunikasi terkait kesehatan mental, 
+              memberikan pengalaman yang informatif dan interaktif bagi para penggunanya.</b></p>
+            <div class="d-flex">
+              <a href="/chatbot" class="btn-get-started">Pergi ke Chatbot</a>
+            </div>
+          </div>
+          
+          <div class="col-lg-5 order-1 order-lg-2">
+            <img src="{{ url_for('static', filename='../static/assets/img/rekindle/compressed_deco7.png') }}" class="img-fluid" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="icon-boxes position-relative" data-aos="fade-up" data-aos-delay="200">
+        <div class="container position-relative">
+          <div class="row gy-4 mt-5">
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <img src="{{ url_for('static', filename='../static/assets/img/rekindle/compressed_deco1.png') }}" alt="Bootstrap" width="100" height="100">
+                <h4 class="title"><a href="/blog/blog-details-gangguan-kecemasan" class="stretched-link">Gangguan Kecemasan</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <img src="{{ url_for('static', filename='../static/assets/img/rekindle/compressed_deco2.png') }}" alt="Bootstrap" width="100" height="100">
+                <h4 class="title"><a href="/blog/blog-details-gangguan-depresi" class="stretched-link">Gangguan Depresi</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+    
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <img src="{{ url_for('static', filename='../static/assets/img/rekindle/compressed_deco3.png') }}" alt="Bootstrap" width="100" height="100">
+                <h4 class="title"><a href="/blog/blog-details-gangguan-stress" class="stretched-link">Gangguan Stres</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+            <div class="col-xl-3 col-md-6">
+              <div class="icon-box">
+                <img src="{{ url_for('static', filename='../static/assets/img/rekindle/compressed_deco4.png') }}" alt="Bootstrap" width="100" height="100">
+                <h4 class="title"><a href="/blog/blog-details-gangguan-stress-pasca-trauma" class="stretched-link">Gangguan Stres Pasca Trauma</a></h4>
+              </div>
+            </div><!--End Icon Box -->
+
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Tentang Kami<br></h2>
+        <p>Rekindle bertujuan untuk menyediakan wawasan kepada pengunjung tentang berbagai aspek kesehatan mental, mencakup informasi mengenai gangguan umum, gejala dan opsi pengobatan yang tersedia.
+        </p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3>Kenapa Kesehatan Mental itu Penting?</h3>
+            <img src="{{ url_for('static', filename='../static/assets/img/rekindle/compressed_deco6.png') }}" class="img-fluid rounded-4 mb-4" alt="">
+            <p style="text-align: justify;">Kesehatan mental adalah fondasi dari kesejahteraan umum bagi masyarakat. Ini memengaruhi cara berpikir, merasakan dan bertindak dalam menghadapi kehidupan. Kesehatan mental yang terjaga, dapat mengatasi gangguan stres, membangun hubungan yang baik dan membuat keputusan yang lebih baik.</p>
+            <p style="text-align: justify;">Kesehatan mental yang baik adalah kunci untuk menjalani kehidupan yang penuh makna dan memuaskan, memengaruhi bagaimana berhubungan dengan diri sendiri dan orang lain, serta kemampuan untuk beradaptasi dengan perubahan dan tantangan. Kesehatan mental yang optimal memungkinkan 
+              untuk menghadapi stres, meningkatkan produktivitas, menikmati interaksi sosial, berkontribusi pada keseimbangan emosional dan kebahagiaan dalam kehidupan sehari-hari. Kesehatan mental yang baik membantu mencegah berbagai masalah psikologis dan fisik, memungkinkan untuk 
+              meraih potensi penuh dalam berbagai aspek kehidupan. Mengabaikan kesehatan mental dapat menyebabkan masalah serius, seperti gangguan kecemasan atau depresi, yang dapat memengaruhi kualitas hidup secara signifikan.</p>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+                Berikut Poin-Poin Penting Dalam Kesehatan Mental
+              </p>
+              <ul>
+                <li><i class="bi bi-check-circle-fill"></i> <span>Keseimbangan Emosional: Mengelola stres dan emosi secara efektif.</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span>Hubungan Sosial: Memperkuat ikatan dengan orang lain.</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span>Produktivitas: Meningkatkan kinerja di tempat kerja atau sekolah.</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span>Kualitas Hidup: Menyediakan panduan untuk kehidupan yang lebih bahagia dan sehat.</span></li>
+                <li><i class="bi bi-check-circle-fill"></i> <span>Pencegahan Masalah: Mengurangi risiko gangguan mental dan fisik.</span></li>
+              </ul>
+              <p style="text-align: justify;">
+                Temukan alasan mendasar mengapa kesehatan mental adalah pilar kesejahteraan dan bagaimana Anda dapat memeliharanya. 
+                Saksikan video informatif ini! 🎥🧠
+              </p>
+
+              <div class="position-relative mt-4">
+                <img src="{{ url_for('static', filename='../static/assets/img/rekindle/compressed_deco8.png') }}" class="img-fluid rounded-4" alt="">
+                <a href="https://www.youtube.com/watch?v=FPy-gq2IZE4&pp=ygUja2VuYXBhIGtlc2VoYXRhbiBtZW50YWwgaXR1IHBlbnRpbmc%3D" class="glightbox play-btn"></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+    <!-- Stats Section -->
+    <!-- Section Title -->
+    <div class="container section-title" data-aos="fade-up">
+      <h2>Angka Kesehatan Mental di Indonesia<br></h2>
+      <p>Kesehatan mental di Indonesia merupakan isu penting yang semakin mendapatkan perhatian. 
+        Berbagai faktor seperti perubahan sosial, ekonomi dan budaya mempengaruhi kesejahteraan mental masyarakat. 
+        Masalah kesehatan mental, seperti depresi dan gangguan kecemasan, semakin banyak terjadi, namun sering kali 
+        masih terabaikan atau tidak tertangani dengan baik. (https://www.ourbetterworld.org/, 2019) 
+      </p>
+    </div><!-- End Section Title -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4 align-items-center">
+
+          <div class="col-lg-5">
+            <img src="{{ url_for('static', filename='../static/assets/img/rekindle/compressed_deco5.png') }}" alt="" class="img-fluid">
+          </div>
+
+          <div class="col-lg-7">
+
+            <div class="row gy-4">
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-diamond-fill flex-shrink-0"></i>
+                  <div class="counter-wrapper">
+                    <div class="counter-row">
+                      <span data-purecounter-start="0" data-purecounter-end="16" data-purecounter-duration="1" class="purecounter"></span>
+                      <span><strong>Juta</strong></span>
+                    </div>
+                    <p class="counter-text">
+                      <strong>Orang di Indonesia</strong> <span>berusia 15 tahun ke atas telah menunjukkan gejala kecemasan atau depresi</span>
+                    </p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-diamond-fill flex-shrink-0"></i>
+                  <div class="counter-wrapper">
+                    <div class="counter-row">
+                      <span data-purecounter-start="0" data-purecounter-end="400" data-purecounter-duration="1" class="purecounter"></span>
+                      <span><strong>Ribu</strong></span>
+                    </div>
+                    <p class="counter-text">
+                      <strong>Orang di Indonesia</strong> <span>menderita penyakit yang lebih parah seperti gangguan jiwa</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-diamond-fill flex-shrink-0"></i>
+                  <div class="counter-wrapper">
+                    <div class="counter-row">
+                      <span data-purecounter-start="0" data-purecounter-end="57" data-purecounter-duration="1" class="purecounter"></span>
+                      <span><strong>Ribu</strong></span>
+                    </div>
+                    <p class="counter-text">
+                      <strong>Orang di Indonesia</strong> <span>dilaporkan pernah mengalami pemasungan sebelumnya</span>
+                    </p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+              <div class="col-lg-6">
+                <div class="stats-item d-flex">
+                  <i class="bi bi-diamond-fill flex-shrink-0"></i>
+                  <div class="counter-wrapper">
+                    <div class="counter-row">
+                      <span data-purecounter-start="0" data-purecounter-end="18" data-purecounter-duration="1" class="purecounter"></span>
+                      <span><strong>Ribu</strong></span>
+                    </div>
+                    <p class="counter-text">
+                      <strong>Orang di Indonesia</strong> <span>menunjukkan tanda-tanda masalah kesehatan mental dan masih dikurung di dalam suatu institusi atau mengalami pemasungan</span>
+                    </p>
+                  </div>
+                </div>
+              </div><!-- End Stats Item -->
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section">
+
+      <div class="container">
+        <img src="{{ url_for('static', filename='../static/assets/img/rekindle/compressed_deco9.png') }}" alt="">
+        <div class="content row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+          <div class="col-xl-10">
+            <div class="text-center">
+              <a href="https://www.youtube.com/watch?v=jwsq3AMyMmY&pp=ygUQa2VzZWhhdGFuIG1lbnRhbA%3D%3DWsInQ" class="glightbox play-btn"></a>
+              <h3>Panggilan Aksi</h3>
+              <p>Tingkatkan kualitas hidup Anda dengan langkah kecil menuju kesehatan mental yang lebih baik. Yuk, mulai perjalanan Anda sekarang!</p>
+              <a class="cta-btn" href="#call">Panggilan Aksi</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Call To Action Section -->
+
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>People Behind Rekindle</h2>
+      </div><!-- End Section Title -->
+    
+      <div class="container">
+    
+        <div class="row justify-content-center gy-4"> <!-- Add justify-content-center -->
+    
+          <div class="col-xl-3 col-md-6 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100"> <!-- Add justify-content-center -->
+            <div class="member">
+
+              <img src="{{ url_for('static', filename='../static/assets/img/profile/compressed_profile.jpg') }}" class="img-fluid" alt="">
+              <h4>Kavatsmara Fayra Gavriel Anaphaty</h4>
+              <span>Information Systems Student of Gunadarma University</span>
+              <div class="social">
+                <a href="https://github.com/gavrielakav"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/kavatsmara/"><i class="bi bi-linkedin"></i></a>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+    
+        </div>
+    
+      </div>
+    
+    </section><!-- /Team Section -->    
+
+    <!-- Faq Section -->
+    <section id="faq" class="faq section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="content px-xl-5">
+              <h3><span>Bagian </span><strong>Bantuan</strong></h3>
+              <p style="text-align: justify;">
+                Bagian bantuan ini dirancang untuk membantu pengguna memahami cara menggunakan fitur chatbot dan live chat pada website Rekindle: Mental Health Matters, serta memastikan mereka merasa aman dan didukung saat menggunakan layanan ini.
+              </p>
+            </div>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
+
+            <div class="faq-container">
+              <div class="faq-item faq-active">
+                <h3><span class="num">1.</span> <span>Apa fungsi chatbot di website kesehatan mental ini?</span></h3>
+                <div class="faq-content">
+                  <p>Chatbot kami adalah asisten virtual yang dirancang untuk memberikan informasi tentang berbagai topik kesehatan mental, membantu Anda mengenali gejala, dan memberi saran awal.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">2.</span> <span>Bagaimana cara berinteraksi dengan chatbot untuk mendapatkan bantuan?</span></h3>
+                <div class="faq-content">
+                  <p>Cukup klik tulisan chat! pada navbar halaman web atau scroll ke atas halaman website lalu klik tombol "Go to Chatbot", lalu ketik pertanyaan atau masalah yang ingin Anda diskusikan. Chatbot akan memberikan respons secara real-time dan dapat membantu Anda menemukan informasi, saran.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">3.</span> <span>Apakah percakapan Saya dengan chatbot dan tenaga kesehatan aman dan rahasia?</span></h3>
+                <div class="faq-content">
+                  <p>Privasi Anda sangat penting bagi kami. Semua percakapan dengan chatbot dan live chat dijamin aman dan rahasia. Kami menggunakan enkripsi untuk melindungi data Anda, dan percakapan hanya dapat diakses oleh Anda, sesuai dengan kebijakan privasi kami.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">4.</span> <span>Bagaimana jika percakapan dengan Chatbot tidak dapat menjawab pertanyaan Saya?</span></h3>
+                <div class="faq-content">
+                  <p>Jika chatbot tidak dapat menjawab pertanyaan atau masalah Anda, Anda dapat menggunakan fitur live chat kami untuk berkomunikasi langsung dengan tenaga kesehatan berpengalaman, seperti psikiater atau psikolog. Klik tombol "Live Chat" pada bagian kanan bawah halaman lalu Anda akan diarahkan ke halaman "Halo doc" untuk mulai berkonsultasi.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+              <div class="faq-item">
+                <h3><span class="num">5.</span> <span>Bagaimana cara menghubungkan dengan tenaga kesehatan melalui live chat?</span></h3>
+                <div class="faq-content">
+                  <p>Untuk mengatur janji dengan psikiater atau psikolog, gunakan fitur live chat pada bagian kanan bawah halaman lalu Anda akan diarahkan ke halaman "Halo Doc". Anda akan diminta untuk memilih jenis layanan, waktu yang sesuai, dan mengisi beberapa informasi dasar. Setelah itu, Anda akan menerima konfirmasi dan tautan untuk sesi Anda.</p>
+                </div>
+                <i class="faq-toggle bi bi-chevron-right"></i>
+              </div><!-- End Faq item-->
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Faq Section -->
+
+    <!-- Recent Posts Section -->
+    <section id="recent-posts" class="recent-posts section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Gangguan Mental</h2>
+        <p>Berikut adalah penjelasan tentang berbagai jenis gangguan kesehatan mental, menjabarkan tentang gejala dan juga saran yang harus dilakukan jika mengalami gejala-gejala tersebut</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <article>
+              <div class="post-img">
+                <img src="{{ url_for('static', filename='../static/assets/img/blog/compressed_article1.png') }}" alt="" class="img-fluid">
+              </div>
+              <p class="post-category">Gangguan Mental</p>
+              <h2 class="title">
+                <a href="/blog/blog-details-highlight-kecemasan">Apa itu Gangguan Kecemasan (Anxiety Disorder)?</a>
+              </h2>
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <article>
+
+              <div class="post-img">
+                <img src="{{ url_for('static', filename='../static/assets/img/blog/compressed_article2.png') }}" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Gangguan Mental</p>
+
+              <h2 class="title">
+                <a href="/blog/blog-details-highlight-depresi">Apa itu Depresi?</a>
+              </h2>
+
+            </article>
+          </div><!-- End post list item -->
+
+          <div class="col-xl-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <article>
+
+              <div class="post-img">
+                <img src="{{ url_for('static', filename='../static/assets/img/blog/compressed_article3.png') }}" alt="" class="img-fluid">
+              </div>
+
+              <p class="post-category">Gangguan Mental</p>
+
+              <h2 class="title">
+                <a href="/blog/blog-details-highlight-stress">Apa itu Stres?</a>
+              </h2>
+
+            </article>
+          </div><!-- End post list item -->
+
+        </div><!-- End recent posts list -->
+
+      </div>
+
+    </section><!-- /Recent Posts Section -->
+
+    <!-- Recent Posts Section -->
+    <section id="call" class="call">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Panggilan Aksi</h2>
+        <p>Kesehatan mental Anda adalah prioritas kami. Jika Anda merasa memerlukan bantuan 
+          atau sedang mengalami krisis, jangan ragu untuk segera mencari pertolongan. Berikut adalah cara 
+          Anda dapat mendapatkan dukungan langsung dari psikiater berpengalaman dan layanan pencegahan bunuh diri: </p>
+      </div><!-- End Section Title -->
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+            <h3>Penanganan Psikolog Terdekat</h3>
+            <div class="content ps-0 ps-lg-5">
+            <p class="fst-italic">
+              Berikut beberapa nomor psikolog terdekat dari daerah anda yang bisa hubungi untuk penanganan lebih lanjut (Sumber: intothelightid.org, 2023):
+            </p>
+            <ul>
+              <li><i class="bi bi-telephone-fill"></i> <p><strong>SEJIWA</strong> <span>119 ekstensi 8</span></p>
+              <li><i class="bi bi-telephone-fill"></i> <p><strong>RSJ Soeharto Heerdjan Jakarta</strong> <span>(021) 5682841</span></p>
+              <li><i class="bi bi-telephone-fill"></i> <p><strong>RSJ Amino Gondohutomo Semarang</strong> <span>(024) 6722565</span></p>
+              <li><i class="bi bi-telephone-fill"></i> <p><strong>RSJ Marzoeki Mahdi Bogor</strong> <span>(0251) 8324024, 8324025, 8320467</span></p></span></li>
+              <li><i class="bi bi-telephone-fill"></i> <p><strong>RSJ Prof Dr Soerojo Magelang</strong> <span>(0293) 363601</span></p>
+              <li><i class="bi bi-telephone-fill"></i> <p><strong>RSJ Radjiman Wediodiningrat Malang</strong> <span>(0341) 423444</span></p>
+            </ul>
+            <p>
+            </div>
+          </div>
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="250">
+            <h3>Pertolongan Pencegahan Bunuh Diri</h3>
+            <div class="content ps-0 ps-lg-5">
+              <p class="fst-italic">
+                Berikut beberapa nomor yang anda bisa hubungi untuk pencegahan bunuh diri (Sumber: intothelightid.org, 2023):
+              </p>
+              <ul>
+                <li><i class="bi bi-telephone-fill"></i> <p><strong>LISA (Love Inside Suicide Awareness), Suicide Prevention Helpline (English)</strong> <span>+628113815472</span></p>
+                <li><i class="bi bi-telephone-fill"></i> <p><strong>LISA (Love Inside Suicide Awareness), Suicide Prevention Helpline (Indonesia)</strong> <span>+628113855472</span></p>
+                <li><i class="bi bi-telephone-fill"></i> <p><strong>LSM (Lembaga Swadaya Masyarakat) Jangan Bunuh Diri</strong> <span>(021) 96969293</span></p>
+                <li><i class="bi bi-telephone-fill"></i> <p><strong>PKBI (Perkumpulan Keluarga Berencana Indonesia)</strong> <span>(021) 7207372</span></p>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Recent Posts Section -->
+    
+
+  </main>
+
+  {% include 'partials/footer.html' %}
+
+</body>
+
+</html>

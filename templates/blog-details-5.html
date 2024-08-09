@@ -1,0 +1,135 @@
+{% include 'partials/header.html' %}
+
+<body class="blog-details-page">
+
+  <script>
+    document.title = 'Rekindle - Gangguan Stres Pasca Trauma'
+  </script>
+
+  {% include 'components/navbar.html' %}
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Skizofrenia</h1>
+              <p class="mb-0">Skizofrenia adalah gangguan mental berat yang dapat memengaruhi tingkah laku, emosi, dan komunikasi. Penderita skizofrenia bisa mengalami halusinasi, delusi, kekacauan berpikir, dan perubahan perilaku.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="/">Beranda</a></li>
+            <li class="current">Skizofrenia</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-8">
+
+          <!-- Blog Details Section -->
+          <div id="blog-details" class="blog-details section">
+            <div class="container">
+
+              <article class="article">
+
+                <div class="post-img">
+                  <img src="{{ url_for('static', filename='../static/assets/img/blog/compressed_article5.png') }}" alt="" class="img-fluid">
+                </div>
+
+                <h2 class="title">Apa Itu Skizofrenia?</h2>
+
+                <div class="meta-top">
+                  <ul>
+                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="/blog/blog-details-gangguan-kecemasan">Alodokter</a></li>
+                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="/blog/blog-details-gangguan-kecemasan"><time datetime="2024-06-17">June 17, 2024</time></a></li>
+                  </ul>
+                </div><!-- End meta top -->
+
+                <div class="content">
+                  <p>
+                    Berdasarkan data dari WHO, ada lebih dari 20 juta orang di seluruh dunia menderita skizofrenia. Sementara menurut penelitian Kementerian Kesehatan RI tahun 2019, diperkirakan ada 450.000 orang dengan gangguan jiwa (ODGJ) berat di Indonesia, termasuk skizofrenia.
+                  </p>
+
+                  <blockquote>
+                    <p>
+                      Perlu diketahui bahwa penderita skizofrenia berisiko 2–3 kali lebih tinggi mengalami kematian pada usia muda. 
+                    </p>
+                  </blockquote>
+
+                  <p>
+                    Hal ini karena skizofrenia umumnya disertai penyakit lain, seperti penyakit jantung, diabetes, atau infeksi. Selain itu, penderita skizofrenia juga rentan melakukan percobaan bunuh diri.
+                  </p>
+
+                  <h3>Gejala dan Penyebab Skizofrenia</h3>
+                  <p>
+                    Skizofrenia sering disamakan dengan psikosis, padahal keduanya berbeda. Psikosis hanyalah salah satu gejala dari gangguan mental, seperti gangguan bipolar, delusi, depresi berat, dan skizofrenia. Meski gejala psikosis dapat muncul pada skizofrenia, tidak semua penderita skizofrenia pasti mengalaminya.
+                    Gejala skizofrenia terbagi menjadi gejala positif dan gejala negatif. Gejala positif ditandai dengan perubahan persepsi yang mengakibatkan penderita berperilaku tidak wajar. Sementara gejala negatif ditandai dengan ketidakmampuan penderita dalam bersosialisasi.
+                    Penyebab skizofrenia belum diketahui secara pasti. Namun, ada faktor yang diduga dapat meningkatkan terjadinya skizofrenia, di antaranya faktor genetik dan pengaruh lingkungan.
+                  </p>
+
+                  <h3>Pengobatan dan Pencegahan Skizofrenia</h3>
+                  <p>
+                    Sampai saat ini, belum ada obat yang dapat menyembuhkan skizofrenia. Namun, ada pengobatan yang dapat mengendalikan dan mengurangi gejala sehingga pasien dapat hidup layaknya orang normal. Pengobatan tersebut harus dilakukan seumur hidup dan diikuti dengan kontrol rutin.
+                    Penanganan skizofrenia dapat berupa obat-obatan, psikoterapi, dan terapi seperti elektrokonvulsi atau pemberian gelombang elektromagnetik ke otak.
+                    Skizofrenia tidak dapat dicegah sepenuhnya, karena bisa dipicu oleh faktor genetik dan ketidakseimbangan zat di dalam otak. Upaya pencegahan yang dapat dilakukan adalah dengan mendeteksi dan mengobatinya sejak dini sehingga perburukan dan kekambuhan penyakit ini dapat dicegah.
+                  </p>
+
+                </div><!-- End post content -->
+
+                <div class="meta-bottom">
+                  <i class="bi bi-folder"></i>
+                  <ul class="cats">
+                    <li><a href="/blog">Gangguan Mental</a></li>
+                  </ul>
+
+                  <i class="bi bi-tags"></i>
+                  <ul class="tags">
+                    <li><a href="#">Skizofrenia</a></li>
+                  </ul>
+                </div><!-- End meta bottom -->
+
+              </article>
+
+            </div>
+          </div><!-- /Blog Details Section -->
+
+          <!-- Blog Author Section -->
+          <section id="blog-author" class="blog-author section">
+            <div class="container">
+              <div class="author-container d-flex align-items-center">
+                <img src="{{ url_for('static', filename='../static/assets/img/blog/compressed_profile2.jpg') }}" class="rounded-circle flex-shrink-0" alt="">
+                <div>
+                  <h4>Alodokter</h4>
+                  <p class="fst-italic">
+                    Sumber dari alodokter.com, 2023
+                  </p>
+                  <p>
+                    ALODOKTER adalah platform kesehatan digital nomor satu di Indonesia dengan lebih dari 30 juta pengguna aktif setiap bulannya, serta lebih dari 80 ribu dokter yang bergabung. 
+                    Sejak tahun 2014, ALODOKTER telah unggul dalam menyediakan informasi kesehatan yang akurat, mudah dipahami, dan dapat diakses oleh siapa saja, kapan saja, dan di mana saja. Semua informasi kesehatan yang tersedia di ALODOKTER disusun dalam bahasa Indonesia yang mudah dimengerti dan ditinjau oleh tim dokter yang kompeten.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section><!-- /Blog Author Section -->
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </main>
+  {% include 'partials/footer.html' %}
+</body>
+</html>

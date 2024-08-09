@@ -1,0 +1,139 @@
+{% include 'partials/header.html' %}
+
+<body class="blog-details-page">
+
+  <script>
+    document.title = 'Rekindle - Gangguan Stress'
+  </script>
+
+  {% include 'components/navbar.html' %}
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Gangguan Stres</h1>
+              <p class="mb-0">Stres adalah perubahan reaksi tubuh ketika menghadapi ancaman, tekanan, atau situasi yang baru. 
+                Ketika menghadapi stres, tubuh akan melepaskan hormon adrenalin dan kortisol. Kondisi ini membuat detak jantung dan tekanan darah akan meningkat, pernapasan menjadi lebih cepat, serta otot menjadi tegang.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="/">Beranda</a></li>
+            <li class="current">Gangguan Stres</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-8">
+
+          <!-- Blog Details Section -->
+          <div id="blog-details" class="blog-details section">
+            <div class="container">
+
+              <article class="article">
+
+                <div class="post-img">
+                  <img src="{{ url_for('static', filename='../static/assets/img/blog/compressed_article3.png') }}" alt="" class="img-fluid">
+                </div>
+
+                <h2 class="title">Apa Itu Stres?</h2>
+
+                <div class="meta-top">
+                  <ul>
+                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="/blog/blog-details-gangguan-kecemasan">Alodokter</a></li>
+                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="/blog/blog-details-gangguan-kecemasan"><time datetime="2024-06-17">June 17, 2024</time></a></li>
+                  </ul>
+                </div><!-- End meta top -->
+
+                <div class="content">
+                  <p>
+                    Stres adalah perubahan reaksi tubuh ketika menghadapi ancaman, tekanan, atau situasi yang baru. Ketika menghadapi stres, tubuh akan melepaskan hormon adrenalin dan kortisol. Kondisi ini membuat detak jantung dan tekanan darah akan meningkat, pernapasan menjadi lebih cepat, serta otot menjadi tegang.
+                  </p>
+
+                  <p>
+                    Stres umum dirasakan setiap orang, baik dewasa maupun anak-anak. Saat mengalami stres, tubuh akan menjadi waspada terhadap tantangan atau bahaya yang mengancam.
+                  </p>
+
+                  <blockquote>
+                    <p>
+                      Saat seseorang menghadapi kondisi yang memicu stres, tubuh akan bereaksi secara alami, yaitu dengan melepas hormon yang dinamakan kortisol dan adrenalin. 
+                    </p>
+                  </blockquote>
+
+                  <p>
+                    <b>Untuk mengetahui isi artikel lebih lanjut bisa pergi ke artikel asli berikut ini:</b>
+                  </p>
+
+                    <div class="d-flex">
+                    <a href="https://www.alodokter.com/stres" class="btn-get-started">Alo Dokter</a>
+                    </div>
+
+                  <p>
+                    <b>Atau artikel dari Rekindle berikut ini:</b>
+                  </p>
+
+                  <div class="d-flex">
+                    <a href="/blog/blog-details-gangguan-stress" class="btn-get-started">Rekindle</a>
+                  </div>
+                </div><!-- End post content -->
+
+                <div class="meta-bottom">
+                  <i class="bi bi-folder"></i>
+                  <ul class="cats">
+                    <li><a href="/blog">Gangguan Mental</a></li>
+                  </ul>
+
+                  <i class="bi bi-tags"></i>
+                  <ul class="tags">
+                    <li><a href="#">Gangguan Stres</a></li>
+                  </ul>
+                </div><!-- End meta bottom -->
+
+              </article>
+            </div>
+          </div><!-- /Blog Details Section -->
+
+          <!-- Blog Author Section -->
+          <section id="blog-author" class="blog-author section">
+
+            <div class="container">
+              <div class="author-container d-flex align-items-center">
+                <img src="{{ url_for('static', filename='../static/assets/img/blog/compressed_profile2.jpg') }}" class="rounded-circle flex-shrink-0" alt="">
+                <div>
+                  <h4>Alodokter</h4>
+                  <p class="fst-italic">
+                    Sumber dari alodokter.com, 2022
+                  </p>
+                  <p>
+                    ALODOKTER adalah platform kesehatan digital nomor satu di Indonesia dengan lebih dari 30 juta pengguna aktif setiap bulannya, serta lebih dari 80 ribu dokter yang bergabung. 
+                    Sejak tahun 2014, ALODOKTER telah unggul dalam menyediakan informasi kesehatan yang akurat, mudah dipahami, dan dapat diakses oleh siapa saja, kapan saja, dan di mana saja. Semua informasi kesehatan yang tersedia di ALODOKTER disusun dalam bahasa Indonesia yang mudah dimengerti dan ditinjau oleh tim dokter yang kompeten.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section><!-- /Blog Author Section -->
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  {% include 'partials/footer.html' %}
+
+</body>
+
+</html>

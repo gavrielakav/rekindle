@@ -1,0 +1,379 @@
+{% include 'partials/header.html' %}
+
+<body class="blog-details-page">
+
+  
+  <script>
+    document.title = 'Rekindle - Bipolar'
+  </script>
+
+  {% include 'components/navbar.html' %}
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title" data-aos="fade">
+      <div class="heading">
+        <div class="container">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8">
+              <h1>Bipolar</h1>
+              <p class="mb-0">Gangguan bipolar adalah masalah kesehatan mental yang menyebabkan perubahan suasana hati, energi, tingkat aktivitas, konsentrasi, dan kemampuan untuk melakukan kegiatan sehari-hari.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <nav class="breadcrumbs">
+        <div class="container">
+          <ol>
+            <li><a href="/">Beranda</a></li>
+            <li class="current">Bipolar</li>
+          </ol>
+        </div>
+      </nav>
+    </div><!-- End Page Title -->
+
+    <div class="container">
+      <div class="row">
+
+        <div class="col-lg-8">
+
+          <!-- Blog Details Section -->
+          <div id="blog-details" class="blog-details section">
+            <div class="container">
+
+              <article class="article">
+
+                <div class="post-img">
+                  <img src="{{ url_for('static', filename='../static/assets/img/blog/compressed_article6.png') }}" alt="" class="img-fluid">
+                </div>
+
+                <h2 class="title">Apa Itu Bipolar?</h2>
+
+                <div class="meta-top">
+                  <ul>
+                    <li class="d-flex align-items-center"><i class="bi bi-person"></i> <a href="/blog/blog-details-gangguan-kecemasan">Halodoc</a></li>
+                    <li class="d-flex align-items-center"><i class="bi bi-clock"></i> <a href="/blog/blog-details-gangguan-kecemasan"><time datetime="2024-06-17">June 17, 2024</time></a></li>
+                  </ul>
+                </div><!-- End meta top -->
+
+                <div class="content">
+                  <p>
+                    Gangguan bipolar adalah masalah kesehatan mental yang menyebabkan perubahan suasana hati, energi, tingkat aktivitas, konsentrasi, dan kemampuan untuk melakukan kegiatan sehari-hari.
+                    Pengidap yang sebelumnya merasa sangat gembira bisa tiba-tiba berubah menjadi sangat sedih dan putus asa 
+                  </p>
+
+                  <p>
+                    Perubahan suasana hati secara drastis ini dapat memengaruhi kebiasaan tidur, tingkat energi, aktivitas, perilaku, dan kemampuan berpikir pengidapnya.
+                  </p>
+
+                  <blockquote>
+                    <p>
+                      Perlu kamu ketahui bahwa penyakit bipolar adalah kondisi seumur hidup. Artinya, masalah kesehatan mental ini tidak bisa sembuh seutuhnya.
+                      Meski begitu, terapi dan pengobatan bisa membantu kamu mengelola gejala yang terjadi.
+                    </p>
+                  </blockquote>
+
+                  <h3>Jenis Gangguan Bipolar</h3>
+                    <div class="content ps-0 ps-lg-5">
+                      <p class="fst-italic">
+                        Gangguan bipolar terbagi menjadi beberapa jenis. Berikut penjelasan untuk setiap jenisnya:
+                      </p>
+                      <ul>
+                        <li><span>1. Gangguan bipolar I</span></li>
+                        <p>
+                          Gangguan bipolar I adalah jenis kelainan yang paling parah. Pengidap setidaknya mengalami satu periode mania dalam hidup.
+                          Sayangnya, episode tersebut mungkin ekstrem dan berbahaya. Selain itu, pengidap gangguan bipolar jenis ini juga berpotensi mengalami depresi. 
+                        </p>
+                        <li><span>2. Gangguan bipolar II</span></li>
+                        <p>
+                          Selanjutnya, gangguan bipolar II. Ciri-ciri jenis ini sekilas mirip dengan bipolar I, bedanya, jenis ini selalu memiliki episode depresi dengan hipomania sesekali.
+                          Selain itu, gangguan bipolar II bukan jenis yang ringan, sebab beberapa pengidapnya sering kali mengembangkan gejala gangguan bipolar I.
+                        </p>
+                        <li><span>3. Gangguan siklotimik</span></li>
+                        <p>
+                          Gangguan siklotimik adalah jenis yang tergolong langka. Tingkat keparahannya mungkin tidak seperti bipolar I dan II.
+                          Namun, gangguan siklotimik dapat berdampak besar pada kehidupan pengidapnya. 
+                          Seseorang dengan gangguan siklotimik mungkin mengalami periode gejala hipomania yang lebih singkat dan gejala depresi periode singkat.
+                          Namun, gangguan siklotimik juga dapat berkembang menjadi bipolar I dan II. 
+                        </p>
+                        <li><span>4. Gangguan bipolar campuran</span></li>
+                        <p>
+                          Apabila dokter menambahkan kata “campuran” dalam diagnosis gangguan bipolar, maka ini artinya pengidapnya mengalami mania dan depresi selama episode yang sama.
+                          Misalnya, seseorang mungkin memiliki energi tinggi dan sulit tidur. Namun, pada waktu yang sama, mereka juga merasa putus asa atau memiliki pikiran untuk bunuh diri. 
+                        </p>
+                        <li><span>5. Bipolar musiman</span></li>
+                        <p>
+                          Sekitar 25 persen orang dengan gangguan bipolar memiliki pola depresi musiman. Ini berarti, pengidap akan mengalami episode depresi pada musim gugur atau musim dingin.
+                          Misalnya, pengidap bipolar I akan mengalami mania pada musim semi atau musim panas, sedangkan pengidap bipolar II akan mengalami hipomania selama bulan-bulan tersebut. 
+                        </p>
+                        <li><span>6. Bipolar dengan siklus yang cepat</span></li>
+                        <p>
+                          Seseorang mungkin mendapatkan diagnosis bipolar I atau II “dengan siklus cepat”. 
+                          Artinya, mereka memiliki empat atau lebih episode mania, hipomania, dan depresi dalam rentang waktu 12 bulan. Selain itu, perubahan suasana hati juga dapat terjadi selama beberapa jam atau hari. 
+                          Perlu kamu ketahui, jika suasana hati berubah empat kali dalam sebulan, maka kondisi ini disebut dengan “ultra rapid cycling”.
+                          Meski begitu, tidak ada pola khusus selama periode ini. Sebab, itu bisa terjadi kapan saja selama adanya gangguan. 
+                        </p>
+                      </ul>
+                    </div>
+
+                  <h3>Penyebab Bipolar</h3>
+                  <p>
+                    Beberapa pakar berpendapat bahwa penyebab masalah kesehatan mental ini adalah ketidakseimbangan neurotransmitter atau zat pengontrol fungsi otak.
+                    Selain itu, ada pula ahli yang menyebutkan bahwa penyebab gangguan bipolar berkaitan dengan faktor keturunan. 
+                  </p>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      Nah, berikut berbagai faktor yang ditengarai bisa menyebabkan gangguan bipolar:
+                    </p>
+                    <ul>
+                      <li><span>1. Genetik atau keturunan</span></li>
+                      <p>
+                        Seseorang yang punya riwayat keluarga dengan gangguan bipolar lebih berisiko mengalami masalah kembar ini.
+                        Studi pada anak yang kembar identik menunjukkan adanya hubungan genetik yang kuat dalam perkembangan gangguan bipolar.
+                      </p>
+                      <li><span>2. Ketidakseimbangan kimia di otak</span></li>
+                      <p>
+                        Kondisi ini juga bisa timbul apabila ada ketidakseimbangan neurotransmiter, yaitu zat kimia otak yang mengatur suasana hati dan perilaku.
+                        Ketidakseimbangan ini dapat mempengaruhi perubahan suasana hati dan energi seseorang yang bisa mengacu pada bipolar.
+                      </p>
+                      <li><span>3. Lingkungan</span></li>
+                      <p>
+                        Stres kronis, trauma fisik dan emosional bisa memicu gangguan ini. Peristiwa hidup  seperti kehilangan orang yang dicintai atau konflik dalam hubungan dapat menjadi pemicu atau memperburuk episode bipolar.
+                      </p>
+                      <li><span>4. Perubahan hormonal</span></li>
+                      <p>
+                        Fluktuasi hormon dalam tubuh, seperti selama kehamilan, menstruasi, atau menopause membuat seseorang lebih rentan mengalami masalah mental yang satu ini. 
+                      </p>
+                      <li><span>5. Kemampuan menangani stres</span></li>
+                      <p>
+                        Nyatanya, ada beberapa orang yang memiliki koping stres yang kurang baik. Nah, orang-orang seperti inilah yang rentan mengalami kondisi ini. Pasalnya, mereka kesulitan untuk mengatasi tekanan hidupnya. 
+                      </p>
+                      <li><span>6. Konsumsi zat-zat psikoaktif</span></li>
+                      <p>
+                        Penggunaan narkoba atau alkohol secara berlebihan dapat memicu atau memperburuk episode mania atau depresi pada individu yang rentan terhadap gangguan ini.
+                      </p>
+                      <li><span>7. Mengidap gangguan mental </span></li>
+                      <p>
+                        Masalah mental seperti gangguan kecemasan atau gangguan penggunaan zat juga dapat meningkatkan risiko kondisi ini.
+                        Sebab, mereka yang telah mengidapnya amat rentan mengalami gangguan suasana hati yang ekstrem.
+                      </p>
+                      <li><span>8. Perubahan siklus tidur</span></li>
+                      <p>
+                        Gangguan tidur, baik kurang tidur atau tidur berlebihan, dapat memicu episode mania atau depresi pada individu dengan gangguan bipolar.
+                        Perubahan suasana hati yang ekstrem ternyata bisa mengganggu kualitas tidur pengidapnya.
+                      </p>
+                    </ul>
+                  </div>
+
+                  <h3>Faktor Risiko Gangguan Bipolar</h3>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      Ada beberapa faktor yang meningkatkan risiko munculnya kelainan mental ini, yaitu:
+                    </p>
+                    <ul>
+                      <li><span>Pernah mengalami peristiwa yang membuat trauma.</span></li>
+                      <li><span>Tidak bisa mengelola stres dengan baik.</span></li>
+                      <li><span>Mengalami kecanduan obat terlarang atau minuman beralkohol.</span></li>
+                      <li><span>Ada anggota keluarga dengan kondisi yang sama.</span></li>
+                    </ul>
+                  </div>
+
+                  <h3>Gejala Gangguan Bipolar</h3>
+                  <p>
+                    Terdapat dua fase dalam gejala gangguan bipolar, yaitu fase mania (naik) dan depresi (turun).
+                    Ketika periode mania terjadi, pengidap akan terlihat sangat bersemangat, enerjik, dan bicara cepat.
+                    Sementara itu, pada periode depresi, mereka akan terlihat sedih, lesu, dan kehilangan minat terhadap aktivitas sehari-hari. 
+                  </p>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      1. Fase mania
+                    </p>
+                    <ul>
+                      <p>
+                        Beberapa gejala yang termasuk pada fase mania adalah:
+                      </p>
+                      <li><span>Sangat bersemangat, senang, dan mudah tersinggung atau sensitif.</span></li>
+                      <li><span>Merasa gelisah.</span></li>
+                      <li><span>Mengalami penurunan kebutuhan untuk tidur.</span></li>
+                      <li><span>Kehilangan nafsu makan.</span></li>
+                      <li><span>Berbicara dengan sangat cepat tentang banyak hal yang berbeda.</span></li>
+                      <li><span>Merasa seperti pikirannya berpacu.</span></li>
+                      <li><span>Berpikir bisa melakukan banyak hal sekaligus pada satu waktu.</span></li>
+                      <li><span>Melakukan hal-hal yang berisiko, seperti makan dan minum secara berlebihan, menghamburkan uang, atau melakukan hubungan seks yang sembrono.</span></li>
+                      <li><span>Merasa sangat penting, berbakat, atau kuat.</span></li>
+                    </ul>
+                  </div>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      2. Fase depresi
+                    </p>
+                    <ul>
+                      <p>
+                        Sementara itu, gejala yang termasuk dalam fase depresi bisa berupa:
+                      </p>
+                      <li><span>Sangat sedih, hampa, khawatir, atau putus asa.</span></li>
+                      <li><span>Mengalami sulit tidur, bangun terlalu pagi, atau justru terlalu banyak tidur.</span></li>
+                      <li><span>Peningkatan nafsu makan dan penambahan berat badan.</span></li>
+                      <li><span>Tidak berminat untuk melakukan semua aktivitas, dorongan seks yang menurun atau bahkan tidak ada sama sekali, atau ketidakmampuan untuk merasakan kesenangan (anhedonia).</span></li>
+                      <li><span>Berbicara dengan sangat lambat, merasa tidak ada yang ingin mereka katakan, atau banyak lupa.</span></li>
+                      <li><span>Kesulitan berkonsentrasi atau membuat keputusan.</span></li>
+                      <li><span>Merasa tidak mampu melakukan bahkan hal-hal sederhana.</span></li>
+                      <li><span>Merasa putus asa atau tidak berharga, dan munculnya pikiran tentang kematian atau bunuh diri.</span></li>
+                    </ul>
+                  </div>
+                  <p>
+                    Berdasarkan perputaran episode suasana hati, ada sebagian pengidap gangguan bipolar yang mengalami keadaan normal antara periode mania dan depresi.
+                    Namun, tak sedikit pula pengidap yang mengalami perputaran cepat dari mania ke depresi atau sebaliknya tanpa adanya periode normal (rapid cycling).
+                    Selain itu, ada juga pengidap yang mengalami periode mania dan depresi secara bersamaan.
+                    Contohnya, ketika pengidap merasa sangat berenerjik dan sangat sedih serta putus asa pada waktu yang sama. Gejala ini memiliki istilah periode campuran (mixed state). 
+                  </p>
+
+                  <h3>Diagnosis Gangguan Bipolar</h3>
+                  <p>
+                    Dokter akan menentukan diagnosis gangguan bipolar dari sesi wawancara dengan bertanya gejala apa saja yang muncul, bagaimana riwayat kesehatan pengidap dan keluarga.
+                    Selain itu, dokter mungkin akan meminta pengidap untuk mengisi kuesioner, tujuannya guna mendapat diagnosis terhadap kondisi kejiwaan pengidap. 
+                    Melalui hasil pemeriksaan ini, dokter selanjutnya akan membandingkan tanda dan ciri-ciri bipolar pada pengidap dengan kriteria berdasarkan Diagnostic and Statistical Manual of Mental Disorders (DSM-5).
+                    Adapun kriteria yang menentukan pengidap mengalami kelainan ini terlihat dari fase mania, hipomania, dan depresif.
+                    Setidaknya, pengidap bisa mengalami tiga gejala pada rentang waktu 1 minggu untuk fase mania. 
+                    Sementara itu, pengidap juga merasakan minimal tiga gejala yang termasuk dalam kelompok fase hipomania selama 4 hari berurutan.
+                    Terakhir, pada fase depresif, pengidap setidaknya mengalami lima gejala yang terlihat pada periode waktu 2 minggu. 
+                    Dokter bisa memberikan diagnosis gangguan bipolar pada seseorang apabila gejala yang muncul telah mengganggu kegiatan harian.
+                    Selain itu, perubahan suasana hati tersebut harusnya tidak memiliki hubungan dengan masalah kesehatan lainnya atau penyalahgunaan NAPZA.
+                  </p>
+
+                  <h3>Pengobatan Gangguan Bipolar</h3>
+                  <p>
+                    Gangguan bipolar adalah penyakit seumur hidup yang gejalanya bisa datang sewaktu-waktu.
+                    Namun, perawatan jangka panjang dan berkelanjutan dapat membantu pengidapnya mengelola berbagai gejala yang muncul.
+                  </p>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      Berikut pilihan pengobatan untuk gangguan bipolar yang umum diberikan:
+                    </p>
+                    <ul>
+                      <li><span>1. Obat-obatan</span></li>
+                      <p>
+                        Jenis obat yang umumnya digunakan untuk mengobati kondisi ini termasuk penstabil suasana hati, antipsikotik, dan antidepresan.
+                        Pengidap juga kerap kesulitan tidur sehingga dokter seringkali juga meresepkan obat tidur atau anti kecemasan. 
+                        Hindari menghentikan pengobatan tanpa membicarakannya dengan dokter terlebih dahulu.
+                        Pasalnya, hal ini dapat menyebabkan “rebound” atau memburuknya gejala gangguan bipolar. 
+                      </p>
+                      <li><span>2. Psikoterapi</span></li>
+                      <p>
+                        Terapi bicara atau psikoterapi sering menjadi bagian dari rencana perawatan. 
+                        Psikoterapi adalah istilah untuk berbagai teknik pengobatan yang bertujuan untuk membantu seseorang mengidentifikasi dan mengubah emosi, pikiran, dan perilaku yang mengganggu.
+                        Terapi ini dapat memberikan dukungan, pendidikan, dan bimbingan kepada orang-orang dengan gangguan bipolar dan keluarga mereka. 
+                      </p>
+                      <ul>
+                        <p class="fst-italic">
+                          Beberapa jenis psikoterapi yang dapat membantu yaitu:
+                        </p>
+                        <li><span>Terapi ritme interpersonal dan sosial (IPSRT)</span></li>
+                      <p>
+                        Jenis psikoterapi ini berfokus pada rutinitas ritme harian, seperti tidur, bangun, dan waktu makan.
+                        Rutinitas yang konsisten memungkinkan pengidap dapat mengelola suasana hati yang baik.
+                        Kebanyakan pengidapnya mendapatkan manfaat dari menetapkan rutinitas harian untuk tidur, diet, dan olahraga.
+                      </p>
+                      <li><span>Terapi yang berfokus pada keluarga</span></li>
+                      <p>
+                        Pengidap memerlukan dukungan dari keluarga. Sebab, dukungan dan komunikasi keluarga dapat membantu pengidap tetap menjalankan rencana perawatan.
+                        Selain itu, keluarga dapat mengenali dan mengelola tanda-tanda peringatan dari perubahan suasana hati pengidap
+                      </p>
+                      </ul>
+                      <li><span>3. Electroconvulsive Therapy (ECT)</span></li>
+                      <p>
+                        ECT adalah prosedur stimulasi otak yang dapat membantu pengidap yang mengalami gejala cukup parah.
+                        Ini biasanya dokter berikan bersama obat anestesi dan ini aman dilakukan. 
+                        Pengobatan ECT biasanya seseorang perlukan untuk mengobati episode depresif dan mania yang parah dan ketika pengobatan lainnya tidak membantu. 
+                      </p>
+                      <li><span>4. Transcranial magnetic stimulation (TMS)</span></li>
+                      <p>
+                        TMS sebenarnya pengobatan baru untuk stimulasi otak dengan menggunakan gelombang magnetik. 
+                        Penelitian menunjukkan bahwa TMS bermanfaat bagi banyak orang dengan berbagai subtipe depresi, tetapi perannya dalam pengobatan gangguan bipolar masih perlu diteliti lebih lanjut. 
+                      </p>
+                    </ul>
+                  </div>
+
+                  <h3>Komplikasi Gangguan Bipolar</h3>
+                  <p>
+                    Jika tidak diobati, kelainan ini dapat menyebabkan perubahan suasana hati yang lebih lama dan lebih parah.
+                    Misalnya, episode depresi terkait kondisi ini dapat bertahan hingga 6 bulan, sedangkan episode mania dapat bertahan hingga 4 bulan tanpa perawatan berkelanjutan. 
+                  </p>
+                  <div class="content ps-0 ps-lg-5">
+                    <p class="fst-italic">
+                      Pengidap juga lebih berisiko untuk mengalami hal-hal berikut:
+                    </p>
+                    <ul>
+                      <li><span>Penyalahgunaan zat (misalnya, alkohol atau obat-obatan).</span></li>
+                      <li><span>Kecemasan.</span></li>
+                      <li><span>Kondisi jantung dan kardiovaskular.</span></li>
+                      <li><span>Diabetes.</span></li>
+                      <li><span>Berat badan yang tidak sehat (seperti obesitas).</span></li>
+                      <li><span>Pikiran untuk bunuh diri.</span></li>
+                    </ul>
+                  </div>
+
+                  <h3>Pencegahan Gangguan Bipolar</h3>
+                  <p>
+                    Penyebab pasti gangguan mental ini belum diketahui sehingga pencegahannya pun belum ditemukan.
+                    Meski begitu, seseorang yang mengalami gejala ini sebaiknya segera memeriksakan diri ke dokter untuk mendapatkan perawatan yang tepat.
+                    Perawatan ini juga perlu dilakukan secara berkelanjutan guna mencegah dampak serius dari gangguan ini. 
+                    Jika kamu memiliki riwayat keluarga dengan masalah yang sama, penting untuk mewaspadai tanda-tanda kelainan ini sedini mungkin.
+                    Hindari mengonsumsi zat yang dapat memicu episode mania atau depresi, seperti kafein dalam jumlah berlebih, alkohol, kokain, ekstasi, dan amfetamin.
+                  </p>
+
+                </div><!-- End post content -->
+
+                <div class="meta-bottom">
+                  <i class="bi bi-folder"></i>
+                  <ul class="cats">
+                    <li><a href="/blog">Gangguan Mental</a></li>
+                  </ul>
+
+                  <i class="bi bi-tags"></i>
+                  <ul class="tags">
+                    <li><a href="#">Bipolar</a></li>
+                  </ul>
+                </div><!-- End meta bottom -->
+
+              </article>
+
+            </div>
+          </div><!-- /Blog Details Section -->
+
+          <!-- Blog Author Section -->
+          <section id="blog-author" class="blog-author section">
+
+            <div class="container">
+              <div class="author-container d-flex align-items-center">
+                <img src="{{ url_for('static', filename='../static/assets/img/blog/compressed_profile1.jpg') }}" class="rounded-circle flex-shrink-0" alt="">
+                <div>
+                  <h4>Halodoc</h4>
+                  <p class="fst-italic">
+                    Sumber dari halodoc.com, 2023
+                  </p>
+                  <p>
+                    Halodoc merupakan sebuah aplikasi dan situs web asal Indonesia yang bergerak di bidang kesehatan. PT Media Dokter Investama, perusahaan aplikasi ini didirikan pada tahun 2016 di Jakarta oleh Jonathan Sudharta dan Doddy Lukito.
+                    Hingga tahun 2018, total pendanaan yang diterima adalah sekitar US$13 juta atau sekitar Rp171 miliar; beberapa investornya antara lain Gojek, Blibli, Clermont, dan NSI Ventures. 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </section><!-- /Blog Author Section -->
+
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+
+  {% include 'partials/footer.html' %}
+
+</body>
+
+</html>

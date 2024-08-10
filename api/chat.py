@@ -2,17 +2,23 @@ import random
 import json
 import torch
 import numpy as np
+import os
 
-from model import NeuralNet
-from nltk_utils import bag_of_words, tokenize
+from api.model import NeuralNet
+from api.nltk_utils import bag_of_words, tokenize
 
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-with open('intents.json', 'r') as json_data:
+current_dir = os.path.dirname(os.path.abspath(__file__))
+
+# Path ke file intents.json dan final_model.pth
+intents_path = os.path.join(current_dir, 'intents.json')
+model_path = os.path.join(current_dir, 'final_model.pth')
+
+with open(intents_path, 'r') as json_data:
     intents = json.load(json_data)
 
-FILE = "final_model.pth"
-data = torch.load(FILE)
+data = torch.load(model_path)
 
 input_size = data["input_size"]
 hidden_size = data["hidden_size"]

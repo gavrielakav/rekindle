@@ -1,8 +1,8 @@
 from flask import Flask, render_template, request, jsonify
 from flask_cors import CORS
-from chat import get_response
+from api.chat import get_response
 
-app = Flask(__name__, static_folder='../static', template_folder='../templates')
+app = Flask(__name__, static_folder='static')
 CORS(app)  
 
 @app.get("/")
